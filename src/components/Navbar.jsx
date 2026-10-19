@@ -12,8 +12,9 @@ export default function Navbar() {
 
   /* Keep navigation links in one place for desktop and mobile. */
   const navLinks = [
-    { label: "Services", href: "#services" },
     { label: "Surface Lab", href: "#surface-lab" },
+    { label: "Services", href: "#services" },
+    
     { label: "Our Work", href: "#transformation" },
   ];
 
