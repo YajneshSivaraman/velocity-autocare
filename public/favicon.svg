@@ -1,0 +1,42 @@
+
+<!-- VELOCITY AUTOCARE — Arctic Titanium favicon -->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+>
+  <!-- Graphite background with subtly rounded corners. -->
+  <rect
+    width="64"
+    height="64"
+    rx="12"
+    fill="#17202B"
+  />
+
+  <!-- Thin titanium border for a premium finish. -->
+  <rect
+    x="1"
+    y="1"
+    width="62"
+    height="62"
+    rx="11"
+    fill="none"
+    stroke="#C7D0D9"
+    stroke-opacity="0.35"
+    stroke-width="1.5"
+  />
+
+  <!-- Electric-blue V symbol representing VELOCITY. -->
+  <path
+    d="M13 17 L25 17 L32 39 L39 17 L51 17 L37 49 L27 49 Z"
+    fill="#277BFF"
+  />
+
+  <!-- Small titanium highlight for a crisp, metallic accent. -->
+  <path
+    d="M25 17 L32 39 L35 30 L31 17 Z"
+    fill="#F5F7FA"
+    fill-opacity="0.9"
+  />
+</svg>

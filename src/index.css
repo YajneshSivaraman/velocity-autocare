@@ -1,0 +1,43 @@
+/* Load Tailwind CSS v4 utilities and theme styles. */
+@import "tailwindcss";
+
+/* Set the default page appearance for VELOCITY. */
+:root {
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  color: #17202b;
+  background: #f5f7fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default browser spacing and ensure predictable sizing. */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Keep form controls consistent with the site's typography. */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Respect visitors who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
